@@ -1,60 +1,257 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Rakha Dwi Arya Putra</title>
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navbar-->
-    <nav>
-        <a href="#home" class="logo">Portfolio</a>
-        <div class="nav-links">
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#" class="logo">Porto<span>folio.</span></a>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">Tentang</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Keahlian</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Proyek</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Kontak</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
         </div>
-    </nav>
+    </header>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="hero-text">
-            <h1>Hai, Saya <span>Rakha Dwi Arya Putra</span></h1>
-            <p>Saya adalah mahasiswa Teknik Informatika dengan latar belakang SMK Teknik Komputer dan Jaringan. Memiliki ketertarikan dalam pengembangan web serta pengalaman dasar menggunakan HTML, CSS, JavaScript, PHP, dan Laravel. Saya terus belajar dan siap berkembang di dunia teknologi yang dinamis.
-                JavaScript, PHP, dan Laravel. Aktif belajar, siap berkembang.</p>
-            <a href="#skills" class="btn">Lihat Skill Saya</a>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Hai, Saya <span style="color: var(--primary);">Rakha Dwi Arya Putra</span></h1>
+                    <h2 class="hero-subtitle">Front End Developer</h2>
+                    <p class="hero-desc">Saya adalah mahasiswa Teknik Informatika dengan latar belakang SMK Teknik Komputer dan Jaringan. Memiliki ketertarikan dalam pengembangan web serta pengalaman dasar menggunakan HTML, CSS, JavaScript, dan PHP. Saya siap berkembang di dunia teknologi yang dinamis.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn">Lihat Projek</a>
+                        <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="propil.png" alt="Profile Image">
+                    </div>
+                </div>
+            </div>
         </div>
-        <img src="assets/foto.jpg" alt="Foto" class="hero-img">
     </section>
 
-    <!-- Skills -->
-    <section id="skills" class="skills">
-        <h2>Skill Saya</h2>
-        <div class="skill-icons">
-            <img src="assets/logo-skill-html.png" alt="HTML">
-            <img src="assets/logo-skill-css.png" alt="css">
-            <img src="assets/logo-skill-js.png" alt="js">
-            <img src="assets/logo-skill-php.png" alt="PHP">
-            <!-- Tambahkan icon skill lainnya -->
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-img">
+                        <img src="rakavsnuk.jpg" alt="About Image">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3 class="about-title">Front End Developer</h3>
+                    <p class="about-desc">Saya telah mengembangkan keterampilan saya untuk membuat website yang mudah digunakan.</p>
+                    <p class="about-desc">Saya selalu tertarik dengan perkembangan terbaru dalam teknologi web dan terus belajar untuk meningkatkan keterampilan saya. Saya percaya bahwa website yang baik adalah perpaduan antara desain yang menarik dan kode program yang efisien.</p>
+                    <p class="about-desc">Di waktu luang, saya menikmati eksperimen dengan teknologi baru, membaca artikel pengembangan web.</p>
+                    <a href="#contact" class="btn">Hubungi Saya</a>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact" class="contact">
-        <h2>Hubungi Saya</h2>
-        <div class="social-links">
-            <a href="https://www.linkedin.com/in/rakhaputra?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " target="_blank">
-                <img src="assets/linkedin-icon.png" alt="WhatsApp" class="social-icon">
-            </a>
-            <a href="rakhadwi4426@gmail.com">
-                <img src="assets/gmail-icon.png" alt="Email" class="social-icon">
-            </a>
-            <a href="https://github.com/nebett" target="_blank">
-                <img src="assets/github-icon.png" alt="GitHub" class="social-icon">
-            </a>
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">Keahlian Saya</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3 class="skill-title">HTML</h3>
+                    <p class="skill-desc">Membangun struktur website yang semantik dan mudah diakses dengan HTML5.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3 class="skill-title">CSS</h3>
+                    <p class="skill-desc">Mendesain website yang menarik dan responsif dengan CSS3 dan framework seperti Bootstrap.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3 class="skill-title">JavaScript</h3>
+                    <p class="skill-desc">Menambahkan interaktivitas dan fungsionalitas dinamis dengan JavaScript modern.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-php"></i>
+                    </div>
+                    <h3 class="skill-title">PHP</h3>
+                    <p class="skill-desc">Membangun fungsionalitas server-side dan integrasi database dengan PHP.</p>
+                </div>
+            </div>
         </div>
     </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">Proyek Saya</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Project 1" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Website E-commerce</h3>
+                        <p class="project-desc">Website e-commerce lengkap dengan keranjang belanja, checkout, dan panel admin.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">PHP</span>
+                        </div>
+                        <a href="#" class="project-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Project 2" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Aplikasi Task Manager</h3>
+                        <p class="project-desc">Aplikasi manajemen tugas dengan fitur drag-and-drop dan penyimpanan lokal.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://images.unsplash.com/photo-1551909497-da19a4dfba32?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1173&q=80" alt="Project 3" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Blog Pribadi</h3>
+                        <p class="project-desc">Website blog dengan sistem manajemen konten custom dan fitur komentar.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">HTML</span>
+                            <span class="project-tag">CSS</span>
+                            <span class="project-tag">PHP</span>
+                        </div>
+                        <a href="#" class="project-link">Lihat Detail <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Lokasi</h4>
+                            <p>Depok, Jawa Barat, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>rakhadwi4426@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Telepon</h4>
+                            <p>+62 895 3477 9766 3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder="Alamat Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Subjek Pesan" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-input" placeholder="Pesan Anda" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-info">
+                    <h3>Porto<span>folio.</span></h3>
+                    <p>Sebuah website portofolio yang menunjukkan karya dan keahlian saya dalam pengembangan web front end.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/marcoybb" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFVLhg0nqQcqAAAAZjXQg1YttnJ13ibFK5mVqsH8RcyNiRznabQ-d6TasgFic4m14GkmCTXcJ3i36taHL0PCqF9PLxsnaNC_8_j4ODAXiJURK7loDZOOSJqhjYqG14csehWLaY=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Frakhaputra%3Futm_source%3Dshare%26utm_campaign%3Dshare_via%26utm_content%3Dprofile%26utm_medium%3Dandroid_app" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/nebett" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Tautan Cepat</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Tentang</a></li>
+                        <li><a href="#skills">Keahlian</a></li>
+                        <li><a href="#projects">Proyek</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Layanan</h4>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                        <li><a href="#">Frontend Development</a></li>
+                        <li><a href="#">Responsive Design</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Portofolio. Rakha Dwi Arya Putra</p>
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
